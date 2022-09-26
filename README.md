@@ -28,7 +28,7 @@ Like in Racket quote can be called directly as `(quote <expr>)` or as `'<expr>`.
 
 
 
-#Usage
+# Usage
 
 Open and run the startEval.rkt file in DrRacket, then in the terminal call the startEval function with a literal representing your program.
 
