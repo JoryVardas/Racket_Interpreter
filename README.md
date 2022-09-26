@@ -1,15 +1,15 @@
-#Description
+# Description
 
 This is an interpreter written in Racket to interpret a subset of the Racket language.
 
 This was a school group project, however all the code in this repository is my own.
 
-##Implementation overview
+## Implementation Overview
 Since Racket uses a prefix notation then the program passed to `startEval` can be recursively evaluated with each evaluation step being passed the remainder of the program and the context. At each evaluation step the context consists of the bindings which are present at the time of invocation, this will include the builtin bindings and any additional binds from `let`, `letrec`, or `lambda`.
 
 For more details on how this works see the comments in the code.
 
-##Implemented functions
+## Implemented Functions
 The following is a list of functions which are part of the Racket language and which the interpreter implements:
 
 - control flow operations: if
